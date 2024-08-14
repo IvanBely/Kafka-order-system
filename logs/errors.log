@@ -1,4 +1,0 @@
-2024-08-14 16:07:56 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 5844 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
-2024-08-14 16:07:56 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-14 16:07:56 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2024-08-14 16:08:00 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 4.219 seconds (process running for 4.809)
