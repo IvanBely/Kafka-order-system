@@ -1,0 +1,228 @@
+2024-08-14 16:07:56 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 5844 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-14 16:07:56 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-14 16:07:56 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-14 16:07:57 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-14 16:07:57 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.
+2024-08-14 16:07:57 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2024-08-14 16:07:57 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-08-14 16:07:57 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-14 16:07:57 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-14 16:07:57 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-14 16:07:57 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1012 ms
+2024-08-14 16:07:57 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-14 16:07:57 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-14 16:07:57 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-14 16:07:58 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-14 16:07:58 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-14 16:07:58 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b791dca
+2024-08-14 16:07:58 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-14 16:07:58 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-14 16:07:59 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-14 16:07:59 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-08-14 16:07:59 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "orders" does not exist, skipping
+2024-08-14 16:07:59 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-08-14 16:07:59 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "orders_product_list" does not exist, skipping
+2024-08-14 16:07:59 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-08-14 16:07:59 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "orders_product_list" does not exist, skipping
+2024-08-14 16:07:59 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-08-14 16:07:59 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "orders" does not exist, skipping
+2024-08-14 16:07:59 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-08-14 16:07:59 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "orders_product_list" does not exist, skipping
+2024-08-14 16:07:59 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-08-14 16:07:59 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "products" does not exist, skipping
+2024-08-14 16:07:59 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-08-14 16:07:59 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "users" does not exist, skipping
+2024-08-14 16:07:59 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-14 16:07:59 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-14 16:08:00 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-08-14 16:08:00 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2024-08-14 16:08:00 INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-orders_group-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = orders_group
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-08-14 16:08:00 INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2024-08-14 16:08:00 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.7.1
+2024-08-14 16:08:00 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: e2494e6ffb89f828
+2024-08-14 16:08:00 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1723640880309
+2024-08-14 16:08:00 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Subscribed to topic(s): status_order
+2024-08-14 16:08:00 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 4.219 seconds (process running for 4.809)
+2024-08-14 16:08:00 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:00 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:00 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:00 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:00 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:00 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:00 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:00 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:00 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:00 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:00 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:00 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:01 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:01 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:01 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:02 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:02 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:02 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:03 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:03 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:03 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:04 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:04 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:04 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:05 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:05 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:05 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:06 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:06 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:06 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:07 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:07 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:07 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:08 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:08 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:08 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:09 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:09 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:09 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:10 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:10 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:10 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:11 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:11 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:11 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:12 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:12 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:12 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:13 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:13 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:13 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:14 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:14 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:14 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:15 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:15 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:15 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:16 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:16 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:16 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:17 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:17 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:17 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:18 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:18 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:18 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:19 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:19 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:19 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:20 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Node -1 disconnected.
+2024-08-14 16:08:20 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-08-14 16:08:20 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-08-14 16:08:20 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-08-14 16:08:20 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Request joining group due to: consumer pro-actively leaving the group
+2024-08-14 16:08:20 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Unsubscribed all topics or patterns and assigned partitions
+2024-08-14 16:08:20 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-08-14 16:08:20 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-orders_group-1, groupId=orders_group] Request joining group due to: consumer pro-actively leaving the group
+2024-08-14 16:08:20 INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-08-14 16:08:20 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-08-14 16:08:20 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-08-14 16:08:20 INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-08-14 16:08:20 INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-orders_group-1 unregistered
+2024-08-14 16:08:20 INFO  o.s.k.l.KafkaMessageListenerContainer - orders_group: Consumer stopped
+2024-08-14 16:08:20 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-14 16:08:20 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-14 16:08:20 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
