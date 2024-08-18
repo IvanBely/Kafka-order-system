@@ -1,0 +1,36 @@
+2024-08-16 09:41:10 INFO  c.e.s.ShippingServiceApplication - Starting ShippingServiceApplication using Java 21.0.1 with PID 8008 (/Users/ivan/Github/Learn/Kafka-order-system/shipping-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 09:41:10 DEBUG c.e.s.ShippingServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 09:41:10 INFO  c.e.s.ShippingServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 09:41:12 INFO  c.e.s.ShippingServiceApplication - Started ShippingServiceApplication in 1.787 seconds (process running for 2.17)
+2024-08-16 09:50:44 INFO  c.e.s.s.impl.ShippingServiceImpl - Packaging successful for order ID: null
+2024-08-16 09:50:44 INFO  c.e.s.s.i.KafkaConsumerShippingServiceImpl - Processed payment for order: OrderDTO(orderId=null, userEmail=user@user.com, orderStatus=PACKAGED, amount=200000.0)
+2024-08-16 09:50:44 INFO  c.e.s.s.i.KafkaProducerShippingServiceImpl - Sent message to Kafka: {"orderId":null,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 09:50:44 INFO  c.e.s.s.i.KafkaProducerShippingServiceImpl - Sent message to Kafka: {"orderId":null,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 09:57:23 INFO  c.e.s.s.impl.ShippingServiceImpl - Packaging successful for order ID: 1
+2024-08-16 09:57:23 INFO  c.e.s.s.i.KafkaConsumerShippingServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user@user.com, orderStatus=PACKAGED, amount=200000.0)
+2024-08-16 09:57:23 INFO  c.e.s.s.i.KafkaProducerShippingServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 09:57:23 INFO  c.e.s.s.i.KafkaProducerShippingServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 09:58:12 INFO  c.e.s.s.impl.ShippingServiceImpl - Packaging successful for order ID: 2
+2024-08-16 09:58:12 INFO  c.e.s.s.i.KafkaConsumerShippingServiceImpl - Processed payment for order: OrderDTO(orderId=2, userEmail=user1@user.com, orderStatus=PACKAGED, amount=200000.0)
+2024-08-16 09:58:12 INFO  c.e.s.s.i.KafkaProducerShippingServiceImpl - Sent message to Kafka: {"orderId":2,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 09:58:12 INFO  c.e.s.s.i.KafkaProducerShippingServiceImpl - Sent message to Kafka: {"orderId":2,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:01:35 INFO  c.e.s.s.impl.ShippingServiceImpl - Packaging successful for order ID: 1
+2024-08-16 10:01:35 INFO  c.e.s.s.i.KafkaConsumerShippingServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user1@user.com, orderStatus=PACKAGED, amount=200000.0)
+2024-08-16 10:01:35 INFO  c.e.s.s.i.KafkaProducerShippingServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:01:35 INFO  c.e.s.s.i.KafkaProducerShippingServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:03:32 INFO  c.e.s.s.impl.ShippingServiceImpl - Packaging successful for order ID: 1
+2024-08-16 10:03:32 INFO  c.e.s.s.i.KafkaConsumerShippingServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user1@user.com, orderStatus=PACKAGED, amount=200000.0)
+2024-08-16 10:03:32 INFO  c.e.s.s.i.KafkaProducerShippingServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:03:32 INFO  c.e.s.s.i.KafkaProducerShippingServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:05:12 INFO  c.e.s.s.impl.ShippingServiceImpl - Packaging successful for order ID: 1
+2024-08-16 10:05:12 INFO  c.e.s.s.i.KafkaConsumerShippingServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user1@user.com, orderStatus=PACKAGED, amount=200000.0)
+2024-08-16 10:05:12 INFO  c.e.s.s.i.KafkaProducerShippingServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:05:12 INFO  c.e.s.s.i.KafkaProducerShippingServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 14:22:16 INFO  c.e.s.ShippingServiceApplication - Starting ShippingServiceApplication using Java 21.0.1 with PID 33928 (/Users/ivan/Github/Learn/Kafka-order-system/shipping-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 14:22:16 DEBUG c.e.s.ShippingServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 14:22:16 INFO  c.e.s.ShippingServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 14:22:18 INFO  c.e.s.ShippingServiceApplication - Started ShippingServiceApplication in 2.181 seconds (process running for 2.609)
+2024-08-16 14:23:11 INFO  c.e.s.s.impl.ShippingServiceImpl - Packaging successful for order ID: 1
+2024-08-16 14:23:11 INFO  c.e.s.s.i.KafkaConsumerShippingServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user@user.com, orderStatus=PACKAGED, amount=200000.0)
+2024-08-16 14:23:11 INFO  c.e.s.s.i.KafkaProducerShippingServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 14:23:11 INFO  c.e.s.s.i.KafkaProducerShippingServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}

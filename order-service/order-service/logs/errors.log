@@ -1,0 +1,8 @@
+2024-08-14 17:05:54 INFO  c.e.o.OrderServiceApplicationTests - Starting OrderServiceApplicationTests using Java 21.0.1 with PID 13489 (started by ivan in /Users/ivan/Github/Learn/Kafka-order-system/order-service)
+2024-08-14 17:05:54 DEBUG c.e.o.OrderServiceApplicationTests - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-14 17:05:54 INFO  c.e.o.OrderServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-08-14 17:05:57 INFO  c.e.o.OrderServiceApplicationTests - Started OrderServiceApplicationTests in 4.091 seconds (process running for 4.791)
+2024-08-16 12:03:37 INFO  c.e.o.OrderServiceApplicationTests - Starting OrderServiceApplicationTests using Java 21.0.1 with PID 26684 (started by ivan in /Users/ivan/Github/Learn/Kafka-order-system/order-service)
+2024-08-16 12:03:37 DEBUG c.e.o.OrderServiceApplicationTests - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 12:03:37 INFO  c.e.o.OrderServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 12:03:41 INFO  c.e.o.OrderServiceApplicationTests - Started OrderServiceApplicationTests in 4.166 seconds (process running for 5.061)

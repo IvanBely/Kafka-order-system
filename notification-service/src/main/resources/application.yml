@@ -6,11 +6,10 @@ spring:
     bootstrap-servers: localhost:9092
     consumer:
       group-id: notifications-group
-      auto-offset-reset: earliest
-      enable-auto-commit: true
-    producer:
-      key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    partitions: 3
+    replicas: 3
+    listener:
+      missing-topics-fatal: false
 
 logging:
   level:
@@ -18,4 +17,4 @@ logging:
     com.example.notification_service: debug
 
   file:
-    name: logs/application.log
+    name: /logs/application.log

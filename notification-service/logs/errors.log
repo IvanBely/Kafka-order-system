@@ -1,0 +1,127 @@
+2024-08-16 09:40:15 INFO  c.e.n.NotificationServiceApplication - Starting NotificationServiceApplication using Java 21.0.1 with PID 7866 (/Users/ivan/Github/Learn/Kafka-order-system/notification-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 09:40:15 DEBUG c.e.n.NotificationServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 09:40:15 INFO  c.e.n.NotificationServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 09:40:16 INFO  c.e.n.NotificationServiceApplication - Started NotificationServiceApplication in 2.054 seconds (process running for 2.51)
+2024-08-16 09:50:44 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: null
+2024-08-16 09:50:44 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=null, userEmail=user@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 09:50:44 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":null,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 09:57:23 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 1
+2024-08-16 09:57:23 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 09:57:23 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 09:58:12 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 2
+2024-08-16 09:58:12 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=2, userEmail=user1@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 09:58:12 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":2,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 10:01:35 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 1
+2024-08-16 10:01:35 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user1@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 10:01:35 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 10:03:32 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 1
+2024-08-16 10:03:32 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user1@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 10:03:32 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 10:05:12 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 1
+2024-08-16 10:05:12 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user1@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 10:05:12 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 11:17:34 INFO  c.e.n.NotificationServiceApplication - Starting NotificationServiceApplication using Java 21.0.1 with PID 19603 (/Users/ivan/Github/Learn/Kafka-order-system/notification-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 11:17:34 DEBUG c.e.n.NotificationServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 11:17:34 INFO  c.e.n.NotificationServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 11:25:33 INFO  c.e.n.NotificationServiceApplication - Starting NotificationServiceApplication using Java 21.0.1 with PID 20822 (/Users/ivan/Github/Learn/Kafka-order-system/notification-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 11:25:33 DEBUG c.e.n.NotificationServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 11:25:33 INFO  c.e.n.NotificationServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 11:25:35 INFO  c.e.n.NotificationServiceApplication - Started NotificationServiceApplication in 3.483 seconds (process running for 4.012)
+2024-08-16 11:26:04 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 1
+2024-08-16 11:26:04 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user1@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 11:26:04 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 11:27:12 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 2
+2024-08-16 11:27:12 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=2, userEmail=user@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 11:27:12 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":2,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 11:29:31 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 3
+2024-08-16 11:29:31 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=3, userEmail=user2@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 11:29:31 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":3,"userEmail":"user2@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 11:36:36 INFO  c.e.n.NotificationServiceApplication - Starting NotificationServiceApplication using Java 21.0.1 with PID 22201 (/Users/ivan/Github/Learn/Kafka-order-system/notification-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 11:36:36 DEBUG c.e.n.NotificationServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 11:36:36 INFO  c.e.n.NotificationServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 11:36:38 INFO  c.e.n.NotificationServiceApplication - Started NotificationServiceApplication in 2.929 seconds (process running for 3.437)
+2024-08-16 11:36:49 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 1
+2024-08-16 11:36:49 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user2@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 11:36:49 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user2@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 11:37:35 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 2
+2024-08-16 11:37:35 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=2, userEmail=user@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 11:37:35 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":2,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 11:40:40 INFO  c.e.n.NotificationServiceApplication - Starting NotificationServiceApplication using Java 21.0.1 with PID 22854 (/Users/ivan/Github/Learn/Kafka-order-system/notification-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 11:40:40 DEBUG c.e.n.NotificationServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 11:40:40 INFO  c.e.n.NotificationServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 11:40:42 INFO  c.e.n.NotificationServiceApplication - Started NotificationServiceApplication in 2.578 seconds (process running for 3.018)
+2024-08-16 11:41:17 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 1
+2024-08-16 11:41:17 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 11:41:17 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 11:45:13 INFO  c.e.n.NotificationServiceApplication - Starting NotificationServiceApplication using Java 21.0.1 with PID 23726 (/Users/ivan/Github/Learn/Kafka-order-system/notification-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 11:45:13 DEBUG c.e.n.NotificationServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 11:45:13 INFO  c.e.n.NotificationServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 11:45:15 INFO  c.e.n.NotificationServiceApplication - Started NotificationServiceApplication in 2.001 seconds (process running for 2.285)
+2024-08-16 11:45:22 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 1
+2024-08-16 11:45:22 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 11:45:22 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 12:05:53 INFO  c.e.n.NotificationServiceApplication - Starting NotificationServiceApplication using Java 21.0.1 with PID 27312 (/Users/ivan/Github/Learn/Kafka-order-system/notification-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 12:05:53 DEBUG c.e.n.NotificationServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 12:05:53 INFO  c.e.n.NotificationServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 12:05:55 INFO  c.e.n.NotificationServiceApplication - Started NotificationServiceApplication in 2.203 seconds (process running for 2.644)
+2024-08-16 12:06:03 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 1
+2024-08-16 12:06:03 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 12:06:03 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 13:52:52 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 2
+2024-08-16 13:52:52 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=2, userEmail=user@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 13:52:52 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":2,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 13:54:42 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 3
+2024-08-16 13:54:42 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=3, userEmail=user@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 13:54:42 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":3,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 13:57:42 INFO  c.e.n.NotificationServiceApplication - Starting NotificationServiceApplication using Java 21.0.1 with PID 30769 (/Users/ivan/Github/Learn/Kafka-order-system/notification-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 13:57:42 DEBUG c.e.n.NotificationServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 13:57:42 INFO  c.e.n.NotificationServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 13:57:44 INFO  c.e.n.NotificationServiceApplication - Started NotificationServiceApplication in 1.814 seconds (process running for 2.255)
+2024-08-16 13:59:11 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 1
+2024-08-16 13:59:11 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 13:59:11 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:05:30 INFO  c.e.n.NotificationServiceApplication - Starting NotificationServiceApplication using Java 21.0.1 with PID 31810 (/Users/ivan/Github/Learn/Kafka-order-system/notification-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 14:05:30 DEBUG c.e.n.NotificationServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 14:05:30 INFO  c.e.n.NotificationServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 14:05:34 INFO  c.e.n.NotificationServiceApplication - Started NotificationServiceApplication in 5.006 seconds (process running for 5.783)
+2024-08-16 14:06:30 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 1
+2024-08-16 14:06:30 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 14:06:30 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:09:25 INFO  c.e.n.NotificationServiceApplication - Starting NotificationServiceApplication using Java 21.0.1 with PID 32258 (/Users/ivan/Github/Learn/Kafka-order-system/notification-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 14:09:25 DEBUG c.e.n.NotificationServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 14:09:25 INFO  c.e.n.NotificationServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 14:09:27 INFO  c.e.n.NotificationServiceApplication - Started NotificationServiceApplication in 2.748 seconds (process running for 3.279)
+2024-08-16 14:11:14 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 1
+2024-08-16 14:11:14 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 14:11:32 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:11:59 INFO  c.e.n.NotificationServiceApplication - Starting NotificationServiceApplication using Java 21.0.1 with PID 32575 (/Users/ivan/Github/Learn/Kafka-order-system/notification-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 14:11:59 DEBUG c.e.n.NotificationServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 14:11:59 INFO  c.e.n.NotificationServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 14:12:02 INFO  c.e.n.NotificationServiceApplication - Started NotificationServiceApplication in 3.227 seconds (process running for 4.003)
+2024-08-16 14:12:31 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 1
+2024-08-16 14:12:31 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 14:13:36 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:15:18 INFO  c.e.n.NotificationServiceApplication - Starting NotificationServiceApplication using Java 21.0.1 with PID 33000 (/Users/ivan/Github/Learn/Kafka-order-system/notification-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 14:15:18 DEBUG c.e.n.NotificationServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 14:15:18 INFO  c.e.n.NotificationServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 14:15:20 INFO  c.e.n.NotificationServiceApplication - Started NotificationServiceApplication in 2.879 seconds (process running for 3.305)
+2024-08-16 14:15:24 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 1
+2024-08-16 14:15:24 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 14:15:24 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:15:48 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 1
+2024-08-16 14:15:48 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 14:15:48 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:17:08 INFO  c.e.n.NotificationServiceApplication - Starting NotificationServiceApplication using Java 21.0.1 with PID 33331 (/Users/ivan/Github/Learn/Kafka-order-system/notification-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 14:17:08 DEBUG c.e.n.NotificationServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 14:17:08 INFO  c.e.n.NotificationServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 14:17:09 INFO  c.e.n.NotificationServiceApplication - Started NotificationServiceApplication in 1.995 seconds (process running for 2.494)
+2024-08-16 14:17:40 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 1
+2024-08-16 14:17:40 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 14:17:40 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:22:46 INFO  c.e.n.NotificationServiceApplication - Starting NotificationServiceApplication using Java 21.0.1 with PID 34009 (/Users/ivan/Github/Learn/Kafka-order-system/notification-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 14:22:46 DEBUG c.e.n.NotificationServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 14:22:46 INFO  c.e.n.NotificationServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 14:22:48 INFO  c.e.n.NotificationServiceApplication - Started NotificationServiceApplication in 1.823 seconds (process running for 2.17)
+2024-08-16 14:23:11 INFO  c.e.n.s.i.NotificationsServiceImpl - Notification successful for order ID: 1
+2024-08-16 14:23:11 INFO  c.e.n.s.i.KafkaConsumerNotificationsServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user@user.com, orderStatus=NOTIFIED, amount=200000.0)
+2024-08-16 14:23:11 INFO  c.e.n.s.i.KafkaProducerNotificationsServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}

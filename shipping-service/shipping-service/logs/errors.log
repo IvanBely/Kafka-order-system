@@ -1,0 +1,4 @@
+2024-08-14 17:08:21 INFO  c.e.s.ShippingServiceApplicationTests - Starting ShippingServiceApplicationTests using Java 21.0.1 with PID 13970 (started by ivan in /Users/ivan/Github/Learn/Kafka-order-system/shipping-service)
+2024-08-14 17:08:21 DEBUG c.e.s.ShippingServiceApplicationTests - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-14 17:08:21 INFO  c.e.s.ShippingServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-08-14 17:08:22 INFO  c.e.s.ShippingServiceApplicationTests - Started ShippingServiceApplicationTests in 1.884 seconds (process running for 2.562)

@@ -1,0 +1,232 @@
+2024-08-14 19:15:25 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 27462 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-14 19:15:25 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-14 19:15:25 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-14 19:50:37 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 32631 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-14 19:50:37 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-14 19:50:38 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-15 09:03:07 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 16978 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-15 09:03:07 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-15 09:03:07 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-15 09:07:55 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 17473 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-15 09:07:55 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-15 09:07:55 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-15 09:12:06 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 18000 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-15 09:12:06 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-15 09:12:06 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-15 09:12:09 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 4.003 seconds (process running for 4.6)
+2024-08-15 09:15:23 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 18465 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-15 09:15:23 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-15 09:15:23 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-15 09:15:27 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 5.187 seconds (process running for 5.961)
+2024-08-15 09:22:33 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 19294 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-15 09:22:33 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-15 09:22:33 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-15 09:22:36 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 3.763 seconds (process running for 4.257)
+2024-08-15 09:40:29 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 21316 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-15 09:40:29 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-15 09:40:29 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 09:26:41 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 6285 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 09:26:41 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 09:26:41 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 09:28:53 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 6483 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 09:28:53 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 09:28:53 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 09:28:56 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 4.197 seconds (process running for 4.692)
+2024-08-16 09:40:29 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 7905 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 09:40:29 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 09:40:29 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 09:40:32 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 3.545 seconds (process running for 3.856)
+2024-08-16 09:50:43 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":null,"userEmail":"user@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 09:57:12 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 9916 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 09:57:12 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 09:57:12 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 09:57:16 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 3.944 seconds (process running for 4.439)
+2024-08-16 09:57:23 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 09:58:12 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":2,"userEmail":"user1@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 10:00:51 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 10387 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 10:00:51 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 10:00:51 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 10:00:54 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 3.554 seconds (process running for 4.028)
+2024-08-16 10:01:35 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 10:01:35 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 10:01:35 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:01:35 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:01:36 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:01:37 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:01:37 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:01:38 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:01:38 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:01:39 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:01:39 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:01:40 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:01:40 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 10:01:41 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 10:01:41 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 10:01:42 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 10:01:42 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 10:01:43 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 10:01:43 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 10:01:44 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 10:01:44 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 10:01:45 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 10:03:21 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 10706 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 10:03:21 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 10:03:21 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 10:03:25 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 4.207 seconds (process running for 4.548)
+2024-08-16 10:03:32 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 10:03:32 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 10:03:32 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:03:32 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:03:33 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:03:33 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:03:34 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:03:34 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:03:35 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:03:35 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:03:36 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:03:36 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:03:37 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 10:05:02 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 10929 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 10:05:02 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 10:05:02 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 10:05:05 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 3.665 seconds (process running for 3.995)
+2024-08-16 10:05:12 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 10:05:12 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 10:05:12 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 10:05:12 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 11:17:25 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 19568 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 11:17:25 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 11:17:25 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 11:18:39 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 19750 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 11:18:39 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 11:18:39 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 11:21:55 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 20293 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 11:21:55 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 11:21:55 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 11:21:58 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 3.869 seconds (process running for 4.193)
+2024-08-16 11:25:27 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 20795 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 11:25:27 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 11:25:27 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 11:25:33 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 6.017 seconds (process running for 6.621)
+2024-08-16 11:26:03 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 11:26:04 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 11:26:04 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 11:26:04 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 11:27:12 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":2,"userEmail":"user@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 11:27:12 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":2,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 11:27:12 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":2,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 11:27:12 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":2,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 11:29:31 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":3,"userEmail":"user2@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 11:29:31 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":3,"userEmail":"user2@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 11:29:31 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":3,"userEmail":"user2@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 11:29:31 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":3,"userEmail":"user2@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 11:36:32 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 22188 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 11:36:32 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 11:36:32 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 11:36:38 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 6.438 seconds (process running for 6.99)
+2024-08-16 11:36:48 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user2@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 11:36:48 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user2@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 11:36:49 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user2@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 11:36:49 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user2@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 11:37:35 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":2,"userEmail":"user@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 11:37:35 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":2,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 11:37:35 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":2,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 11:37:35 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":2,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 11:40:46 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 22869 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 11:40:46 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 11:40:46 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 11:40:50 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 4.139 seconds (process running for 4.704)
+2024-08-16 11:41:17 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 11:41:17 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 11:41:17 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 11:41:17 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 11:44:25 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 23584 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 11:44:25 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 11:44:25 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 11:44:31 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 6.625 seconds (process running for 7.166)
+2024-08-16 11:45:21 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 11:45:22 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 11:45:22 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 11:45:22 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 12:05:25 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 27229 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 12:05:25 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 12:05:25 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 12:05:28 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 3.731 seconds (process running for 4.159)
+2024-08-16 12:06:02 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 12:06:02 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 12:06:02 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 12:06:03 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 13:52:51 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":2,"userEmail":"user@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 13:52:51 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":2,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 13:52:52 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":2,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 13:52:52 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":2,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 13:54:42 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":3,"userEmail":"user@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 13:54:42 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":3,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 13:54:42 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":3,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 13:54:42 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":3,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 13:59:00 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 30971 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 13:59:00 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 13:59:00 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 13:59:03 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 3.73 seconds (process running for 4.143)
+2024-08-16 13:59:11 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 13:59:11 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 13:59:11 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 13:59:11 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:05:24 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 31785 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 14:05:24 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 14:05:24 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 14:05:32 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 9.492 seconds (process running for 10.206)
+2024-08-16 14:06:29 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 14:06:30 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 14:06:30 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 14:06:30 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:09:33 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 32283 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 14:09:33 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 14:09:33 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 14:09:37 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 5.111 seconds (process running for 5.517)
+2024-08-16 14:10:09 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 14:10:09 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 14:11:36 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:11:49 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 14:12:03 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 32589 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 14:12:03 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 14:12:03 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 14:12:09 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 7.06 seconds (process running for 7.758)
+2024-08-16 14:12:23 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 14:12:24 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 14:13:00 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 14:13:36 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:15:22 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 33023 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 14:15:22 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 14:15:22 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 14:15:27 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 4.873 seconds (process running for 5.321)
+2024-08-16 14:15:30 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:15:31 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:15:31 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:15:32 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:15:32 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:15:33 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:15:33 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:15:34 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:15:34 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:15:35 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:15:47 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 14:15:48 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 14:15:48 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 14:15:48 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:17:13 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 33348 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 14:17:13 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 14:17:13 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 14:17:17 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 3.794 seconds (process running for 4.177)
+2024-08-16 14:17:40 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 14:17:40 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 14:17:40 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 14:17:40 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}
+2024-08-16 14:22:29 INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 21.0.1 with PID 33956 (/Users/ivan/Github/Learn/Kafka-order-system/order-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 14:22:29 DEBUG c.e.o.OrderServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 14:22:29 INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 14:22:32 INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 3.652 seconds (process running for 4.169)
+2024-08-16 14:23:11 INFO  c.e.o.s.i.KafkaProducerOrderServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NEW","amount":200000.0}
+2024-08-16 14:23:11 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 14:23:11 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PACKAGED","amount":200000.0}
+2024-08-16 14:23:11 INFO  c.e.o.s.i.KafkaConsumerOrderServiceImpl - Received payed order message: {"orderId":1,"userEmail":"user@user.com","orderStatus":"NOTIFIED","amount":200000.0}

@@ -5,12 +5,12 @@ spring:
   kafka:
     bootstrap-servers: localhost:9092
     consumer:
-      group-id: orders_group
-      auto-offset-reset: earliest
-      enable-auto-commit: true
-    producer:
-      key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      group-id: orders-group
+    partitions: 3
+    replicas: 3
+    listener:
+      missing-topics-fatal: false
+
   datasource:
     url: jdbc:postgresql://localhost:5432/order_service
     username: postgres
@@ -27,4 +27,4 @@ logging:
     com.example.order_service: debug
 
   file:
-    name: logs/application.log
+    name: /logs/application.log

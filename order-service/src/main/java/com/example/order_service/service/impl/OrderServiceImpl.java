@@ -43,7 +43,7 @@ public class OrderServiceImpl implements OrderService {
         order.setProductList(productList);
         order.setAmount(amount);
         order.setStatus(Order.Status.NEW);
-        return order;
+        return orderRepository.save(order);
     }
 
     @Override

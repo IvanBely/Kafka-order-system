@@ -18,7 +18,7 @@ public class KafkaConsumerOrderServiceImpl implements KafkaConsumerOrderService 
     private final OrderService orderService;
     private final ObjectMapper objectMapper;
 
-    @KafkaListener(topics = "status_order", groupId = "orders_group")
+    @KafkaListener(topics = "status_orders", groupId = "orders-group")
     public void consumePayedOrder(String message) {
         log.info("Received payed order message: {}", message);
         try {

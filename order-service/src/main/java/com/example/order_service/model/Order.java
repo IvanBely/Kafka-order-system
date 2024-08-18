@@ -36,8 +36,8 @@ public class Order {
     public enum Status {
         NEW,
         PAYED,
-        SENT,
-        GOT,
+        PACKAGED,
+        NOTIFIED,
         ERROR,
         CANCELLED
     }

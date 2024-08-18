@@ -1,0 +1,8 @@
+2024-08-14 17:06:37 INFO  c.e.n.NotificationServiceApplicationTests - Starting NotificationServiceApplicationTests using Java 21.0.1 with PID 13644 (started by ivan in /Users/ivan/Github/Learn/Kafka-order-system/notification-service)
+2024-08-14 17:06:37 DEBUG c.e.n.NotificationServiceApplicationTests - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-14 17:06:37 INFO  c.e.n.NotificationServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-08-14 17:06:38 INFO  c.e.n.NotificationServiceApplicationTests - Started NotificationServiceApplicationTests in 1.597 seconds (process running for 2.254)
+2024-08-16 12:04:06 INFO  c.e.n.NotificationServiceApplicationTests - Starting NotificationServiceApplicationTests using Java 21.0.1 with PID 26899 (started by ivan in /Users/ivan/Github/Learn/Kafka-order-system/notification-service)
+2024-08-16 12:04:06 DEBUG c.e.n.NotificationServiceApplicationTests - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 12:04:06 INFO  c.e.n.NotificationServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 12:04:07 INFO  c.e.n.NotificationServiceApplicationTests - Started NotificationServiceApplicationTests in 1.603 seconds (process running for 2.223)

@@ -1,0 +1,36 @@
+2024-08-16 09:40:46 INFO  c.e.p.PaymentServiceApplication - Starting PaymentServiceApplication using Java 21.0.1 with PID 7952 (/Users/ivan/Github/Learn/Kafka-order-system/payment-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 09:40:46 DEBUG c.e.p.PaymentServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 09:40:46 INFO  c.e.p.PaymentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 09:40:47 INFO  c.e.p.PaymentServiceApplication - Started PaymentServiceApplication in 1.915 seconds (process running for 2.217)
+2024-08-16 09:50:43 INFO  c.e.p.s.impl.PaymentServiceImpl - Payment successful for order ID: null
+2024-08-16 09:50:43 INFO  c.e.p.s.i.KafkaConsumerPaymentServiceImpl - Processed payment for order: OrderDTO(orderId=null, userEmail=user@user.com, orderStatus=PAYED, amount=200000.0)
+2024-08-16 09:50:44 INFO  c.e.p.s.i.KafkaProducerPaymentServiceImpl - Sent message to Kafka: {"orderId":null,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 09:50:44 INFO  c.e.p.s.i.KafkaProducerPaymentServiceImpl - Sent message to Kafka: {"orderId":null,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 09:57:23 INFO  c.e.p.s.impl.PaymentServiceImpl - Payment successful for order ID: 1
+2024-08-16 09:57:23 INFO  c.e.p.s.i.KafkaConsumerPaymentServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user@user.com, orderStatus=PAYED, amount=200000.0)
+2024-08-16 09:57:23 INFO  c.e.p.s.i.KafkaProducerPaymentServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 09:57:23 INFO  c.e.p.s.i.KafkaProducerPaymentServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 09:58:12 INFO  c.e.p.s.impl.PaymentServiceImpl - Payment successful for order ID: 2
+2024-08-16 09:58:12 INFO  c.e.p.s.i.KafkaConsumerPaymentServiceImpl - Processed payment for order: OrderDTO(orderId=2, userEmail=user1@user.com, orderStatus=PAYED, amount=200000.0)
+2024-08-16 09:58:12 INFO  c.e.p.s.i.KafkaProducerPaymentServiceImpl - Sent message to Kafka: {"orderId":2,"userEmail":"user1@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 09:58:12 INFO  c.e.p.s.i.KafkaProducerPaymentServiceImpl - Sent message to Kafka: {"orderId":2,"userEmail":"user1@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 10:01:35 INFO  c.e.p.s.impl.PaymentServiceImpl - Payment successful for order ID: 1
+2024-08-16 10:01:35 INFO  c.e.p.s.i.KafkaConsumerPaymentServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user1@user.com, orderStatus=PAYED, amount=200000.0)
+2024-08-16 10:01:35 INFO  c.e.p.s.i.KafkaProducerPaymentServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 10:01:35 INFO  c.e.p.s.i.KafkaProducerPaymentServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 10:03:32 INFO  c.e.p.s.impl.PaymentServiceImpl - Payment successful for order ID: 1
+2024-08-16 10:03:32 INFO  c.e.p.s.i.KafkaConsumerPaymentServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user1@user.com, orderStatus=PAYED, amount=200000.0)
+2024-08-16 10:03:32 INFO  c.e.p.s.i.KafkaProducerPaymentServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 10:03:32 INFO  c.e.p.s.i.KafkaProducerPaymentServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 10:05:12 INFO  c.e.p.s.impl.PaymentServiceImpl - Payment successful for order ID: 1
+2024-08-16 10:05:12 INFO  c.e.p.s.i.KafkaConsumerPaymentServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user1@user.com, orderStatus=PAYED, amount=200000.0)
+2024-08-16 10:05:12 INFO  c.e.p.s.i.KafkaProducerPaymentServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 10:05:12 INFO  c.e.p.s.i.KafkaProducerPaymentServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user1@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 14:22:19 INFO  c.e.p.PaymentServiceApplication - Starting PaymentServiceApplication using Java 21.0.1 with PID 33931 (/Users/ivan/Github/Learn/Kafka-order-system/payment-service/target/classes started by ivan in /Users/ivan/Github/Learn/Kafka-order-system)
+2024-08-16 14:22:19 DEBUG c.e.p.PaymentServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-16 14:22:19 INFO  c.e.p.PaymentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-16 14:22:20 INFO  c.e.p.PaymentServiceApplication - Started PaymentServiceApplication in 1.806 seconds (process running for 2.258)
+2024-08-16 14:23:11 INFO  c.e.p.s.impl.PaymentServiceImpl - Payment successful for order ID: 1
+2024-08-16 14:23:11 INFO  c.e.p.s.i.KafkaConsumerPaymentServiceImpl - Processed payment for order: OrderDTO(orderId=1, userEmail=user@user.com, orderStatus=PAYED, amount=200000.0)
+2024-08-16 14:23:11 INFO  c.e.p.s.i.KafkaProducerPaymentServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
+2024-08-16 14:23:11 INFO  c.e.p.s.i.KafkaProducerPaymentServiceImpl - Sent message to Kafka: {"orderId":1,"userEmail":"user@user.com","orderStatus":"PAYED","amount":200000.0}
