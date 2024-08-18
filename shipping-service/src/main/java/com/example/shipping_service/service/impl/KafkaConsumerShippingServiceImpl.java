@@ -7,6 +7,7 @@ import com.example.shipping_service.service.ShippingService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
@@ -15,21 +16,22 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class KafkaConsumerShippingServiceImpl implements KafkaConsumerShippingService {
 
-    private final ObjectMapper objectMapper;
     private final ShippingService shippingService;
     private final KafkaProducerShippingService kafkaProducerShippingService;
     private OrderDTO orderDTO;
     @Override
     @KafkaListener(topics = "payed_orders", groupId = "shipping-group")
-    public void consumeOrder(String message) {
+    public void consumeOrder(ConsumerRecord<String, OrderDTO> record) {
+        OrderDTO orderDTO = record.value();
+        int partition = record.partition();
         try {
-            OrderDTO orderDTO = objectMapper.readValue(message, OrderDTO.class);
             shippingService.processPackaging(orderDTO);
-            log.info("Processed payment for order: {}", orderDTO);
+            log.info("Processed for order: {} from partition: {}", orderDTO, partition);
             kafkaProducerShippingService.sendMessageFurther(orderDTO);
         } catch (Exception e) {
-            log.error("Error processing message: {}", e.getMessage());
-            kafkaProducerShippingService.sendMessageError(orderDTO);
+            log.error("Error processing message from partition {}: {}", partition, e.getMessage());
+            orderDTO.setOrderStatus("ERROR");
+            kafkaProducerShippingService.sendMessageBack(orderDTO);
         }
     }
 }

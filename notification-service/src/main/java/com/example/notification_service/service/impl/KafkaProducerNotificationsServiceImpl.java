@@ -14,27 +14,15 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class KafkaProducerNotificationsServiceImpl implements KafkaProducerNotificationsService {
 
-    private final KafkaTemplate<String, String> kafkaTemplate;
+    private final KafkaTemplate<String, OrderDTO> kafkaTemplate;
     private final ObjectMapper objectMapper;
     private static final String STATUS_TOPIC = "status_orders";
     @Override
     public void sendMessageBack(OrderDTO orderDTO) {
         try {
-            String message = objectMapper.writeValueAsString(orderDTO);
-            kafkaTemplate.send(STATUS_TOPIC, message);
-            log.info("Sent message to Kafka: {}", message);
-        } catch (JsonProcessingException e) {
-            log.error("Error serializing message: {}", e.getMessage());
-        }
-    }
-    @Override
-    public void sendMessageError(OrderDTO orderDTO) {
-        try {
-            orderDTO.setOrderStatus("ERROR");
-            String message = objectMapper.writeValueAsString(orderDTO);
-            kafkaTemplate.send(STATUS_TOPIC, message);
-            log.info("Sent message to Kafka: {}", message);
-        } catch (JsonProcessingException e) {
+            kafkaTemplate.send(STATUS_TOPIC, orderDTO);
+            log.info("Sent message to Kafka: {}", orderDTO);
+        } catch (Exception e) {
             log.error("Error serializing message: {}", e.getMessage());
         }
     }

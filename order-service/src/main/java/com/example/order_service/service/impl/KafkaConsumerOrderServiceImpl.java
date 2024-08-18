@@ -7,6 +7,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
@@ -16,16 +17,16 @@ import org.springframework.stereotype.Service;
 public class KafkaConsumerOrderServiceImpl implements KafkaConsumerOrderService {
 
     private final OrderService orderService;
-    private final ObjectMapper objectMapper;
-
+    @Override
     @KafkaListener(topics = "status_orders", groupId = "orders-group")
-    public void consumePayedOrder(String message) {
-        log.info("Received payed order message: {}", message);
+    public void consumePayedOrder(ConsumerRecord<String, OrderDTO> record) {
+        OrderDTO orderDTO = record.value();
+        int partition = record.partition();
         try {
-            OrderDTO orderDTO = objectMapper.readValue(message, OrderDTO.class);
+            log.info("Processed for order: {} from partition: {}", orderDTO, partition);
             orderService.updateOrderStatus(orderDTO.getOrderId(), orderDTO.getOrderStatus());
-        } catch (JsonProcessingException e) {
-            log.info(e.getMessage());
+        } catch (Exception e) {
+            log.error("Error processing message from partition {}: {}", partition, e.getMessage());
         }
     }
 }

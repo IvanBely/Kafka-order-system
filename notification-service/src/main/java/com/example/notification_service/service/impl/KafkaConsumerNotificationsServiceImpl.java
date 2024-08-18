@@ -7,6 +7,7 @@ import com.example.notification_service.service.NotificationsService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
@@ -21,15 +22,17 @@ public class KafkaConsumerNotificationsServiceImpl implements KafkaConsumerNotif
     private OrderDTO orderDTO;
     @Override
     @KafkaListener(topics = "sent_orders", groupId = "notifications-group")
-    public void consumeOrder(String message) {
+    public void consumeOrder(ConsumerRecord<String, OrderDTO> record) {
+        OrderDTO orderDTO = record.value();
+        int partition = record.partition();
         try {
-            OrderDTO orderDTO = objectMapper.readValue(message, OrderDTO.class);
             notificationsService.notificationUser(orderDTO);
-            log.info("Processed payment for order: {}", orderDTO);
+            log.info("Processed for order: {} from partition: {}", orderDTO, partition);
             kafkaProducerNotificationsService.sendMessageBack(orderDTO);
         } catch (Exception e) {
-            log.error("Error processing message: {}", e.getMessage());
-            kafkaProducerNotificationsService.sendMessageError(orderDTO);
+            log.error("Error processing message from partition {}: {}", partition, e.getMessage());
+            orderDTO.setOrderStatus("ERROR");
+            kafkaProducerNotificationsService.sendMessageBack(orderDTO);
         }
     }
 }
